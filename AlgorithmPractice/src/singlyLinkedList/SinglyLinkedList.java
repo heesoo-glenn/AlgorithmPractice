@@ -20,6 +20,7 @@ public class SinglyLinkedList<E> {
 	private int size = 0;
 	public SinglyLinkedList() {}
 	
+	public int size() { return size; }
 	public boolean isEmpty() { return size == 0; }
 	
 	public E first() {
