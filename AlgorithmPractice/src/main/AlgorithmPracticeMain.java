@@ -1,10 +1,10 @@
 package main;
 
-import singlyLinkedList.SinglyLinkedListTest;
+import circularlyLinkedList.CircularlyLinkedListTest;
 
 public class AlgorithmPracticeMain {
 	public static void main(String[] args) {
-		SinglyLinkedListTest test = new SinglyLinkedListTest();
+		CircularlyLinkedListTest test = new CircularlyLinkedListTest();
 		test.test();
 	}
 }
